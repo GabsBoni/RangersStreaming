@@ -1,0 +1,43 @@
+.cabecalho{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.opcoes{
+    display: flex;
+    margin-right: auto;
+}
+
+.opcoes_item{
+    padding: 2em 1em;
+    
+}
+
+.opcoes_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container_imagem{
+    padding: 1em;
+}
+
+.perfil{
+    padding: 10px 2px 15px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.imagem-perfil{
+    margin: -5px 8px 0px 10px;
+}

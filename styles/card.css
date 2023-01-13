@@ -1,0 +1,114 @@
+
+.conteudo {
+    width: 1100x;
+    margin: 60px 0px 25px 15px;
+}
+
+.titulo{
+    color: #B0E0E6;
+    padding: 10px 10px 10px 25px;
+    transition: .3s all ease;
+}
+
+.titulo:hover{
+    transform: scale(1.1);
+}
+
+.carrousel {
+    display: grid;
+    grid-auto-flow: column;
+    scroll-behavior: auto;
+    gap: 1.5rem;
+    overflow-y: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.carrousel::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    scroll-snap-align: start;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s all ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}   
+
+.ep{
+    min-height: 180px;
+    min-width: 180px; 
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.tipo{
+    height: 120px;
+    width: 220px; 
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+.card:nth-child(1) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(2) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(3) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(4) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(5) {
+    background: linear-gradient(-229deg,);
+}
+
+.card:nth-child(6) {
+    background: linear-gradient(-229deg,);
+}
+
+.card:nth-child(7) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(8) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(9) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(10) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(11) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(12) {
+    background: linear-gradient(-229deg, );
+}
+
+.card:nth-child(13) {
+    background: linear-gradient(-229deg, );
+}
+

@@ -1,0 +1,36 @@
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 0.8em;
+    margin: -250px 1px 50px 0px;
+    align-items: baseline;
+}
+
+
+.lista__link a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 0.8em;
+    
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    color: aliceblue;
+    font-size: 14px;
+}
+
+.lista__link a:hover {
+    color: red;
+}
+
+.rodape__logo-ranger{
+    scale: 0.15;
+    margin: -250px 1px 25px 1px;
+}
